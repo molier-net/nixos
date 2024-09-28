@@ -39,6 +39,7 @@
       vscodeExtensions = with pkgs.vscode-extensions; [
         bbenoist.nix
         ms-vscode-remote.remote-containers
+        ms-azuretools.vscode-docker
       ];
     })
     pkgs.google-chrome
